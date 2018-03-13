@@ -26,6 +26,7 @@ const router = new Router();
 router.get('/hello', async (ctx) => {
   ctx.body = 'world';
 });
+
 app.use(router.routes())
   .use(router.allowedMethods());
 

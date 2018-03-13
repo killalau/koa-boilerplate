@@ -1,7 +1,7 @@
 {
   "name": "koa-boilerplate",
   "version": "0.0.1",
-  "description": "",
+  "description": "koa boilerplate",
   "main": "src/index.js",
   "scripts": {
     "start": "node src/index.js",
