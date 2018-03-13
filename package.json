@@ -1,0 +1,22 @@
+{
+  "name": "koa-boilerplate",
+  "version": "0.0.1",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js | bunyan"
+  },
+  "dependencies": {
+    "bunyan": "^1.8.12",
+    "dotenv": "^5.0.1",
+    "koa": "^2.5.0",
+    "koa-bodyparser": "^4.2.0",
+    "koa-bunyan": "^1.0.1",
+    "koa-qs": "^2.0.0",
+    "koa-router": "^7.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.1"
+  }
+}
